@@ -13,13 +13,16 @@
 <body>
 
     <main>
-      <div class="container">
-        <h2>Random Number Guessing Game</h2>
-        <input type="number" name="number" id="guessedNumber">
-        <input type="button" value="Guess" id="guessBtn" onclick="guess()">
-        <p id="status"></p>
-      </div>  
-      
+        <div class="card game" style="width: 22rem;">
+            <div class="card-body">
+                <h5 class="card-title">Random Number Guessing Game</h5>
+                <p class="card-text">
+                    <input type="number" name="number" id="guessedNumber">
+                    <input type="button" value="Guess" id="guessBtn" onclick="guess()" class="btn btn-primary ">
+                <p id="status"></p>
+                </p>
+            </div>
+        </div>
     </main>
 
     <footer>
